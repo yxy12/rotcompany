@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+		body{ margin: 0px; padding: 0px; font-family:arial;}
+		ul{ list-style: none; margin:0px; padding: 0px; font-size:16px ;}
+			.head_bg{background: #FFFFFF;}
+			.head{width: 1115px; height: 102px; margin:0 auto ; }
+			.head1{ line-height: 100px; font-size:30px; font-weight:100; width: 107px; height: 102px; float: left; cursor:pointer ;}
+			.head1 span.lab{ color:#F25F5B ;}
+			.head2{ width: 632px; height: 102px;  float: right;}
+			.head2 ul li{ float: left; margin-left:20px; color:#999999; }
+			.head2 ul li.about{width:72px ; height:27px ; border:1px solid #F77B6F ; border-radius: 5px;  text-align: center; padding-top: 15px; margin-top:23px; background: #F77B6F; color: #FFFFFF;cursor:pointer ;}
+			.head2 ul li.h1{margin-top:38px ;cursor:pointer ;}
+			.head2 ul li.img{ margin-top:38px ;}
+			.clear{clear: both;}
+			
+			
+			
+			.nav_bg{background: #475268;}
+			.nav{ width:1115px ; height:125px; margin: 0 auto;}
+			.nav .nav1{ color:#FFFFFF ; font-size:22px; width: 115px; height:125px ; float: left; line-height:125px;} 
+			.nav .nav1 span.us{ margin-left:15px ;}
+			.nav .nav2{ float: right; line-height:125px;}
+			.nav .nav2 a{ color: #EC6569;margin-left: 10px;cursor:pointer ;}
+			.nav .nav2 span{ color: #C3C4AF; margin-left: 10px;}
+			.nav .nav2 span.a1{ color:#FFFFFF ;}
+			.clear{clear: both;}
+			
+			
+			
+			
+			.third_bg{ background:#FFFFFF ;}
+			.third{ width: 1120px; height:488px ; margin:0 auto ;}
+			.third .third1{ width: 1115px; height:300px ;}
+			.third .third1 .pic{ margin-top:30px ; float: left; width:458px ; height: 260px;}
+			.third .third1 .words{ float: right; width:630px ; height: 260px; margin-left: 20px; margin-top:30px ;}
+			.third .third1 .words span.Welcome{ font-size:20px ; margin-left: 5px; line-height: 40px;}
+			.third .third1 .words span.Aenean{ font-size:14px ; color: #79798D;margin-left: 5px; }
+			.third .third1 .words span.Avada{font-size:14px ; color: #79798D;margin-left: 5px;}
+			.third .third2{ width: 1115px; height: 130px; margin-top: 60px;}
+			.third .third2 .iOS{ width:537px ; height: 130px;float: left;}
+			.third .third2 .iOS ul li.img{ margin-top: 20px; width: 72px; height: 72px; float: left;}
+			.third .third2 .iOS ul li.i1{width: 447px; height: 86px;float: left; margin-left:10px ; margin-top: 10px;}
+			.third .third2 .iOS ul li.i1 span.Mac{ line-height: 30px;  }
+			.third .third2 .iOS ul li.i1 span.s1{color:#797979 ;font-size: 12px;}
+			.clear{clear: both;}
+			
+			
+			
+			
+			.center_bg{ background:#F2F2F2;}
+			.center{ width:1140px; height: 388px; margin:0 auto ; }
+			.center1{ width:472px ; height: 268px; float: left;  }
+			.center1 .p1{ width: 460px; height: 110px; margin-top: 80px;}
+			.center1 .p1 ul li{ float: left; }
+			.center1 .p1 ul li.m2{ margin-left:10px ; margin-top:30px ; }
+			.center1 .p1 ul li.m2 span{ color: #ABABAB; font-size: 14px;}
+			.center2{ width: 658px; height: 237px; float: right; margin-top: 80px;}
+			.center2 ul li.Our span{ font-size: 20px; margin-left:20px ;}
+			.center2 ul li.o1{ width: 635px; height: 31px; line-height:31px ; margin-left:20px ;  margin-top:20px ; font-size:14px ; color:#FFFFFF ;}
+			.center2 ul li.o1 .web1{ width:372px ;height: 31px; background:#F37D6C ; float: left;border-top-left-radius: 5px ;border-bottom-left-radius: 5px ; padding-left: 10px;}
+			.center2 ul li.o1 .web2{ width:252px ;height: 31px;background:#E1E1E1 ;float: right;border-top-right-radius: 5px ;border-bottom-right-radius: 5px ;} 
+			.center2 ul li.o2{ width: 635px; height: 31px;  line-height:31px ; margin-left:20px ; border-radius: 5px ; margin-top:20px ;font-size:14px ;color:#FFFFFF ;}
+			.center2 ul li.o2 .ht1{ width:554px ;height: 31px; background:#F37D6C ; float: left;border-top-left-radius: 5px ;border-bottom-left-radius: 5px ; padding-left: 10px;}
+			.center2 ul li.o2 .ht2{ width:70px ;height: 31px;background:#E1E1E1 ;float: right;border-top-right-radius: 5px ;border-bottom-right-radius: 5px ;} 
+			.center2 ul li.o3{ width: 635px; height: 31px;  line-height:31px ; margin-left:20px ; border-radius: 5px ; margin-top:20px ;font-size:14px ;color:#FFFFFF ;}
+			.center2 ul li.o3 .wo1{ width:450px ;height: 31px; background:#F37D6C ; float: left;border-top-left-radius: 5px ;border-bottom-left-radius: 5px ; padding-left: 10px;}
+			.center2 ul li.o3 .wo2{ width:175px ;height: 31px;background:#E1E1E1 ;float: right;border-top-right-radius: 5px ;border-bottom-right-radius: 5px ;} 
+			.center2 ul li.o4{ width: 635px; height: 31px;  line-height:31px ; margin-left:20px ; border-radius: 5px ; margin-top:20px ;font-size:14px ;color:#FFFFFF ;}
+			.center2 ul li.o4 .gr1{ width:360px ;height: 31px; background:#F37D6C ; float: left;border-top-left-radius: 5px ;border-bottom-left-radius: 5px ; padding-left: 10px;}
+			.center2 ul li.o4 .gr2{ width:262px ;height: 31px;background:#E1E1E1 ;float: right;border-top-right-radius: 5px ;border-bottom-right-radius: 5px ;} 
+			.clear{clear: both;}
+			
+			
+			
+			
+			.food_bg{ background:#FFFFFF ;}
+			.food{ width:1130px ; height: 625px;  margin: 0 auto;}
+			.food .food1{  width: 948px; height: 79px;  margin-top: 50px;}
+			.food .food1 ul li{ text-align: center;}
+			.food .food1 ul li.we1 span{ font-size: 24px; margin-left: 10px; }
+			.food .food1 ul li.we2 { color:#8A8B8B ; font-size:16px ; margin-top:10px ;}
+			.food .food2{ width:1128px; height: 410px;  margin-top: 40px;}
+			.food .food2 .er1{ width:357px ; height: 406px;  margin-left: 15px; float: left;}
+			.food .food2 .er1 ul li.re1{ color: #F38373; font-size: 20px; margin-left: 40px; margin-top:10px ;cursor:pointer ;}
+			.food .food2 .er1 ul li.re2{ color: #BABABA; font-size: 14px; margin-left: 50px; margin-top:10px ;}
+			.food .food2 .er1 ul li.re3{ color: #BABABA; font-size: 14px;  margin-top:10px ;}
+			.food .food2 .er1 ul li.re3 span.ti1{margin-left: 10px;}
+			.food .food2 .er1 ul li.re3 span.ti2{margin-left: 10px;}
+			.food .food2 .er1 ul li.img2{ margin-top: 10px; margin-left: 30px;}
+			.clear{clear: both;}
+			
+			
+			
+			
+			
+			.foot_bg{ background:#475268 ;}
+			.foot{ width:1128px ; height: 310px; margin:0 auto ;}
+			.foot .foot1{ width:548px ; height: 311px; float: left; }
+			.foot .foot1 .oot1{ width: 210px; height: 220px; margin-top:50px ; float: left;}
+			.foot .foot1 .oot1 ul li{ color:#FFFFFF ; margin-top: 20px; font-size:14px;}
+			.foot .foot1 .oot1 ul li.fo1{ font-size:20px ;}
+			.foot .foot1 .oot1 ul li span.su1{ font-size: 12px; font-size:12px ; color:#E4786A ; cursor:pointer ;}
+			.foot .foot1 .oot2{ width: 253px; height: 83px; float: right;margin-top:50px ; } 
+			.foot .foot1 .oot2 ul li{color:#FFFFFF ; margin-top: 20px; font-size:14px; font-size:20px ;}
+			.foot .foot1 .oot2 ul li span{font-size:14px; }
+			.foot .foot1 .oot2 ul li span.from{ font-size:14px; margin-left:60px ;}
+			.foot .foot2{ width:263px ; height: 176px; float: right;margin-top:50px ;}
+			.foot .foot2 ul li{ color:#FFFFFF ; margin-top: 20px; font-size:20px;}
+			.clear{clear: both;}
+			
+		</style>
+	</head>
+	<body>
+	<div class="head_bg">
+		<div class="head">
+			<div class="head1"><span>Flat</span><span class="lab">Lab</span></div>
+			<div class="head2">
+				<ul>
+					<li class="h1">Home</li>
+					<li class="about">About</li>
+					<li class="h1">Service</li>
+					<li class="h1">Feature</li>
+					<li class="h1">Portfolio</li>
+					<li class="h1">Price</li>
+					<li class="h1">Blog</li>
+					<li class="h1">Contact</li>
+					<li class="img"><img src="img/search-icon.jpg"/ ></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>	
+		
+		
+		
+		
+		
+		
+	<div class="nav_bg">
+		<div class="nav">
+			<div class="nav1"><span>ABOUT</span><span class="us">US</span> </div>
+			<div class="nav2"><a>Home</a><span>/</span> <a>Pages</a><span>/</span><span class="a1">About</span> </div>
+		</div>
+		<div class="clear"></div>
+	</div>	
+		
+		
+		
+		
+		
+		
+		
+	<div class="third_bg">
+		<div class="third">
+			<div class="third1">
+				<div class="pic"><img src="img/about_1.jpg"/ width="458px" height="260px"></div>
+				<div class="words">
+					<span class="Welcome">Welcome</span><span class="Welcome"> to</span><span class="Welcome"> FlatLab</span><br/>
+					<span class="Avada ">Welcome To Avada Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore dolore magnm aliquam quaerat voluptatem.</span><br/><br/>
+					<span class="Aenean ">Aenean nibh ante, lacinia non tincidunt nec, lobortis ut tellus. Sed in porta diam. Suspendisse potenti. Donec luctus ullamcorper nulla. Duis nec velit odio.</span>
+				</div>
+			</div>
+			<div class="third2">
+				<div class="iOS">
+					<ul>
+						<li class="img"><img src="img/1.png"/></li>
+						<li class="i1">
+							<span class="Mac ">iOS / Mac OS Developer</span><br />
+							<span class="s1">Suspendisse dignissim in sem eget pulvinar. Mauris aliquam nulla at libero pretium, eu tincidunt nulla molestie pulvinar posuere.</span>
+						</li>
+					</ul>
+				</div>
+				<div class="iOS">
+					<ul>
+						<li class="img"><img src="img/2.png"</li>
+						<li class="i1">
+							<span class="Mac ">Frontend Developer</span><br />
+							<span class="s1">Suspendisse dignissim in sem eget pulvinar. Mauris aliquam nulla at libero pretium, eu tincidunt nulla molestie pulvinar posuere.</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>	
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="center_bg">
+			<div class="center">
+				<div class="center1">
+					<div class="p1">
+						<ul>
+						<li class="m1"><img src="img/testimonial-img-1.jpg"  width="100px" height="100px" style="border-radius: 50px; "/></li>
+						<li class="m2"><a>ERICSON REAGAN</a><br /><span>ABC Realestate LLC</span></li>
+                        </ul>
+					</div>
+					<div class="p2"><img src="img/305D_03_02.png"/  width="474px" height="128px"></div>
+				</div>
+				<div class="center2">
+					<ul>
+						<li class="Our"><span>Our</span><span>Crazy</span> <span>Skills</span> </li>
+						<li class="o1"><div class="web1">Web Design : 60% Complete</div><div class="web2"></div></li>
+						<li class="o2"><div class="ht1">Html/CSS : 90% Complete</div><div class="ht2"></div></li>
+						<li class="o3"><div class="wo1">Wordpress : 70% Complete</div><div  class="wo2"></div></li>
+						<li class="o4"><div class="gr1">Graphic Design : 55% Complete</div><div class="gr2"></div></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="food_bg">
+			<div class="food">
+				<div class="food1">
+					<ul>
+						<li class="we1"><span>MEET</span><span>OUR </span> <span>TEAM</span></li>
+					    <li class="we2">We work with forward thinking clients to create beautiful, honest and amazing things that bring positive results.</li>
+					</ul>
+				</div>
+				<div class="food2">
+					<div class="er1">
+						<ul>
+							<li class="img1"><img src="img/team_img1.jpg"/ width="220px" height="220px" style="border-radius:50%;"></li>
+							<li class="re1">Ericson Reagan</li>
+							<li class="re2">Managing Director</li>
+							<li class="img2 "><img src="img/3.png"/ width="176px" height="25px"></li>
+							<li class="re3">
+								<span class="ti1">Redantium, totam rem aperiam, eaque ipsa qu ab illo</span><br />
+								<span>inventore veritatis et quasi architectos beatae vitae dicta </span> <br />
+								<span class="ti2">sunt explicabo.Nemo enims sadips ipsums un.</span> 
+							</li>
+						</ul>
+					</div>
+					<div class="er1">
+						<ul>
+							<li class="img1"><img src="img/team_img2.jpg"/width="220px" height="220px" style="border-radius:50%;"</li>
+							<li class="re1">Alicja Colon</li>
+							<li class="re2">Web Designer</li>
+							<li class="img2 "><img src="img/3.png"/ width="176px" height="25px"></li>
+							<li class="re3">
+								<span class="ti1">Redantium, totam rem aperiam, eaque ipsa qu ab illo</span><br />
+								<span>inventore veritatis et quasi architectos beatae vitae dicta </span> <br />
+								<span class="ti2">sunt explicabo.Nemo enims sadips ipsums un.</span> 
+							</li>
+						</ul>
+					</div>
+					<div class="er1">
+						<ul>
+							<li class="img1"><img src="img/team_img3.jpg"/ width="220px" height="220px" style="border-radius:50%;"</li>
+							<li class="re1">Jonathan Smith</li>
+							<li class="re2">Web Developer</li>
+							<li class="img2 "><img src="img/3.png"/ width="176px" height="25px"></li>
+							<li class="re3">
+								<span class="ti1">Redantium, totam rem aperiam, eaque ipsa qu ab illo</span><br />
+								<span>inventore veritatis et quasi architectos beatae vitae dicta </span> <br />
+								<span class="ti2">sunt explicabo.Nemo enims sadips ipsums un.</span> 
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="foot_bg">
+			<div class="foot">
+				<div class="foot1">
+					<div class="oot1">
+						<ul>
+							<li class="fo1">CONTACT INFO</li>
+							<li>Address: No.28-63877 street</li>
+							<li>lorem ipsum city, Country</li>
+							<li>Phone : (123) 456-7890</li>
+							<li>Fax : (123) 456-7890</li>
+							<li><span>Email : </span><span class="su1">support@vectorlab.com</span></li>
+						</ul>
+					</div>
+					<div class="oot2">
+						<ul>
+							<li>LATEST TWEET</li>
+							<li>
+								<span>More Templates </span>
+								<span class="from">- Collect from</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="foot2">
+					<ul>
+						<li>STAY CONNECTED</li>
+						<li class="img3"><img src="img/4.png"/ width="241px" height="123px"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
